@@ -57,7 +57,7 @@ def login():
         if error is None:
             session.clear()
             session['user_id'] = user['id']
-            return redirect(url_for('index'))
+            return redirect(url_for('plcdata'))
 
         flash(error)
 
@@ -77,7 +77,7 @@ def load_logged_in_user():
 @bp.route('/logout')
 def logout():
     session.clear()
-    return redirect(url_for('index'))
+    return redirect(url_for('plcdata'))
 
 # Log in decorator required for other views.  Check to see that the user registered before PLC access.
 
