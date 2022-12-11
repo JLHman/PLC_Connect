@@ -35,6 +35,9 @@ Initialized the database.
 To run this program clicking the green code button `clone` the code and run in you're preferred python editor. 
 
 
+## Create a Username and Password
+Go to 127.0.0.1/5000/auth/login to create a username and password. Here is a [link](http://127.0.0.1:5000/auth/login).
+
 ## FLASK Documentation 
 Flask Tutorial Documentation is available here: [Flask Tutorial Documentation](https://flask.palletsprojects.com/en/2.2.x/tutorial/).
 Pylogix Documentation is available here: [Pylogix Documentation](https://pypi.org/project/pylogix/).
