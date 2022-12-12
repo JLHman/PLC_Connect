@@ -1,8 +1,7 @@
 # INF601 - Advanced Programming in Python
- Jesse Heckman
-Final Project: Simple Flask app to connect to PLC.
- 
-## Install 
+ Jesse Heckman |
+Final Project | Simple Flask app to connect to Allen Bradley PLC using Pylogix.
+ ## Install 
 `pip install -r requirements.txt`
 This will install all of the modules that you will need for the program. 
 
