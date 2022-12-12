@@ -1,8 +1,7 @@
 # INF601 - Advanced Programming in Python
  Jesse Heckman
-Final Project 
+Final Project: Simple Flask app to connect to PLC.
  
-
 ## Install 
 `pip install -r requirements.txt`
 This will install all of the modules that you will need for the program. 
@@ -35,8 +34,9 @@ Initialized the database.
 To run this program clicking the green code button `clone` the code and run in you're preferred python editor. 
 
 
-## Create a Username and Password
-Go to 127.0.0.1/5000/auth/login to create a username and password. Here is a [link](http://127.0.0.1:5000/auth/login).
+## Log in and Create a Username and Password
+Once you log in, you need to create a username and password.  Click the log in and register.
+After registration you will be able to enter your PLC info and connect to view tag data. 
 
 ## FLASK Documentation 
 Flask Tutorial Documentation is available here: [Flask Tutorial Documentation](https://flask.palletsprojects.com/en/2.2.x/tutorial/).

@@ -48,7 +48,6 @@ def create_app(test_config=None):
                "<li>/pylogix/v1.0/plc/'your plc address'/'your processor slot'/tags" \
                 "<li> For example http://127.0.0.1:5000/pylogix/v1.0/plc/192.168.1.20/0/tags"
 
-
     @app.route('/pylogix/v1.0/plc/<ipAddress>/<int:slot>/tags', methods=['GET'])
     @login_required
     def get_all_tags(ipAddress, slot):
@@ -68,8 +67,6 @@ def create_app(test_config=None):
                  })
 
         return jsonify({'tags': tags})
-
-
 
 
     return app
